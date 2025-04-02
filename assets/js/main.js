@@ -10,11 +10,11 @@ const countToNumber = 100;
 let output;
 for (let i = countFromNumber; i <= countToNumber; i++) {
     if (i % 3 == 0 && i % 5 == 0) {
-        output = 'FizzBuzz'
+        output = `FizzBuzz (${i})`
     } else if (i % 3 == 0 && i % 5 != 0) {
-        output = 'Fizz'
+        output = `Fizz (${i})`
     } else if (i % 3 != 0 && i % 5 == 0) {
-        output = 'Buzz'
+        output = `Buzz (${i})`
     } else {
         output = i
     }
